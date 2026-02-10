@@ -59,7 +59,7 @@ Medidas principales:
 - `L_TAX`
 - `DISPATCH_DAYS` (días entre ORDER_DATE y SHIP_DATE)
 
-## 1) Ingresos por región y mes (cliente)
+### 1) Ingresos por región y mes (cliente)
 
 **Pregunta:** ¿Cuáles son los ingresos (revenue neto) por **región del cliente** y **mes**?
 
@@ -77,7 +77,7 @@ El análisis muestra la evolución mensual del revenue neto (`NET_SALES`) por re
 
 El negocio mantiene una distribución geográfica equilibrada en términos de revenue neto mensual, sin una región claramente dominante durante el período analizado.
 
-### 2) Evolución del revenue neto por mes y región del cliente
+## Evolución del revenue neto por mes y región del cliente
 
 ![Ejercicio1_mes](https://github.com/user-attachments/assets/08533311-f7df-48bd-98b6-347485db4058)
 
@@ -91,6 +91,21 @@ Esta consulta analiza cómo cambian los ingresos (`NET_SALES`) a lo largo del ti
 - El comportamiento sugiere que los ciclos de negocio impactan globalmente y no están concentrados en una sola zona geográfica.
 
 El revenue neto evoluciona de manera homogénea entre regiones, lo que indica un portafolio de ventas diversificado y una exposición balanceada entre mercados.
+### 2) Top clientes (año específico)
+
+**Pregunta:** ¿Quiénes son los 10 clientes con mayor revenue neto en un año específico (ej. 1996) y cuál es su región?
+
+![Ejercicio2](https://github.com/user-attachments/assets/c1b8e819-a44d-4079-aeb1-e25d963de0f9)
+
+**Hallazgos principales:**
+- En 1996, el cliente #1 pertenece a EUROPE con 1,642,610.8027 de revenue neto.
+- Distribución regional dentro del Top 10:
+  * MIDDLE EAST: 4 clientes
+  * EUROPE: 3 clientes
+  * ASIA: 2 clientes
+  * AMERICA: 1 cliente
+- Aunque el #1 es de Europa, Middle East aparece más veces en el Top 10, lo que sugiere alta concentración de clientes grandes en esa región.
+
 
 ### 3) Mix de producto: brands y manufacturers
 
