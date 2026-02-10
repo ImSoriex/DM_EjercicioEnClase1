@@ -18,6 +18,12 @@ Entregables solicitados:
   3) Mix de producto (brands y manufacturers) + unidades
   4) Efecto del descuento (descuento promedio vs revenue neto total)
   5) Performance logístico (dispatch days por ship mode + volumen)
+ 
+## Organizacion de carpetas
+Este repositorio cuenta con las siguientes carpetas:
+* Queries: En esta carpeta se encuentran las consultas usadas para responder las preguntas del ejercicio en clase.
+* sql: En esta carpeta se encuentra un archivo ``.sql `` que contiene las queries utilizadas para transformar la capa RAW a GOLD.
+* diagrama: En esta carpeta se encuentra la imagen del diagrama utilizado.
 
 ## Diagrama
 
