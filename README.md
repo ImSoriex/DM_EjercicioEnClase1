@@ -57,6 +57,9 @@ Medidas principales:
 
 **Pregunta:** ¿Cuáles son los ingresos (revenue neto) por **región del cliente** y **mes**?
 
+![Ejercicio1_region](https://github.com/user-attachments/assets/517ec84d-a856-4c9f-a6a6-4d9a00e6d8ea)
+
+
 El análisis muestra la evolución mensual del revenue neto (`NET_SALES`) por región del cliente utilizando la tabla de hechos `FACT_SALES` y las dimensiones de cliente y fecha.
 
 **Hallazgos principales:**
@@ -70,6 +73,8 @@ El negocio mantiene una distribución geográfica equilibrada en términos de re
 
 ### 2) Evolución del revenue neto por mes y región del cliente
 
+![Ejercicio1_mes](https://github.com/user-attachments/assets/08533311-f7df-48bd-98b6-347485db4058)
+
 Esta consulta analiza cómo cambian los ingresos (`NET_SALES`) a lo largo del tiempo, desagregados por **mes** y **región del cliente**, usando la tabla de hechos `FACT_SALES` y las dimensiones de fecha y cliente.
 
 **Hallazgos principales:**
@@ -82,6 +87,8 @@ Esta consulta analiza cómo cambian los ingresos (`NET_SALES`) a lo largo del ti
 El revenue neto evoluciona de manera homogénea entre regiones, lo que indica un portafolio de ventas diversificado y una exposición balanceada entre mercados.
 
 ### 3) Mix de producto: brands y manufacturers
+
+![Ejercicio3](https://github.com/user-attachments/assets/52ef5972-0b63-4f69-9480-08bc124e442d)
 
 Esta consulta evalúa qué **brands** y **manufacturers** generan mayor revenue neto y cuántas **unidades vendidas** concentran, utilizando la tabla de hechos `FACT_SALES` y la dimensión de producto `DIM_PART`.
 
@@ -100,6 +107,8 @@ El análisis del mix de producto muestra que una fracción limitada de brands y 
 
 ### 4) Efecto del descuento por región
 
+![Ejercicio4](https://github.com/user-attachments/assets/ed8cb19d-78b7-47e1-bfb2-912fbecc4c2e)
+
 Esta consulta analiza cómo varía el **descuento promedio** aplicado a las ventas en cada región y cómo se relaciona con el **revenue neto total**, utilizando la tabla de hechos `FACT_SALES` y la dimensión de cliente `DIM_CUSTOMER`.
 
 **Hallazgos principales:**
@@ -112,6 +121,8 @@ Esta consulta analiza cómo varía el **descuento promedio** aplicado a las vent
 Las regiones aplican niveles de descuento casi iguales, y el revenue neto total no muestra una dependencia fuerte del descuento promedio. El negocio parece operar con una estrategia de pricing consistente a escala internacional.
 
 ### 5) Performance logístico por ship mode
+
+![Ejercicio5](https://github.com/user-attachments/assets/b174e15c-e4c7-474a-9cde-245467afb7e1)
 
 Esta consulta analiza el desempeño operativo del proceso de despacho, midiendo el **tiempo promedio de envío** (días entre `ORDER_DATE` y `SHIP_DATE`) por **SHIP_MODE**, junto con el volumen total movido por cada modalidad.
 
