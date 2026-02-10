@@ -77,7 +77,7 @@ El análisis muestra la evolución mensual del revenue neto (`NET_SALES`) por re
 
 El negocio mantiene una distribución geográfica equilibrada en términos de revenue neto mensual, sin una región claramente dominante durante el período analizado.
 
-## Evolución del revenue neto por mes y región del cliente
+#### Evolución del revenue neto por mes y región del cliente
 
 ![Ejercicio1_mes](https://github.com/user-attachments/assets/08533311-f7df-48bd-98b6-347485db4058)
 
